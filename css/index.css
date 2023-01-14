@@ -1,0 +1,21 @@
+:root {
+  --fondo-body: #3e3e3e;
+  --fondo-pantalla: #1c1c1c;
+  --color-botones: #bdeb3c;
+  --color-funete: #fafafa;
+  --tarjeta-violeta: #7900fe;
+}
+
+.container-fluid {
+  background-color: var(--fondo-pantalla);
+}
+
+.espaciador {
+  height: 20vh;
+}
+
+.contenedor_tarjetas_torcidas {
+  display: flex;
+  justify-content: center;
+  height: 30vh;
+}
