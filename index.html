@@ -11,19 +11,179 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" type="text/css" href="./css/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit&display=swap"
+      rel="stylesheet"
+    />
     <script
-      src="https://kit.fontawesome.com/yourcode.js"
+      src="https://kit.fontawesome.com/e5e41098c2.js"
       crossorigin="anonymous"
     ></script>
   </head>
   <body>
+    <!--Primera pantalla-->
     <div class="container-fluid">
       <div class="espaciador"></div>
       <div class="contenedor_tarjetas_torcidas">
-        <img src="./img/tarjetas-torcidas.png" alt="">
+        <img src="./img/tarjetas-torcidas.png" alt="" />
       </div>
-      <div></div>
+      <div class="informacion">
+        <div>
+          <h1>
+            manage <br />
+            your money <br />
+            easily
+          </h1>
+        </div>
+        <div>
+          <p>
+            Easily manage your money with our banking app. <br />
+            Take control of your finances on the go.
+          </p>
+        </div>
+        <div>
+          <i class="fa-solid fa-circle circulo"></i
+          ><i class="fa-solid fa-circle circulo"></i
+          ><i class="fa-solid fa-minus linea"></i>
+        </div>
+        <div><button class="boton_amarillo">Get Started</button></div>
+      </div>
     </div>
+    <!--Fin primera pantalla-->
+    <!--Segunda pantalla-->
+    <div class="container-fluid">
+      <div class="separador"></div>
+      <div class="row">
+        <div class="col-5">
+          <p class="texto">good morning</p>
+        </div>
+        <div class="col">
+          <img src="./img/hola.png" alt="" class="hola"/>
+        </div>
+        <div class="col-2"><i class="fa-regular fa-bell"></i></div>
+      </div>
+      <div class="plata"><h1>$ 360,90</h1></div>
+      <div class="centrar"><span>current balance</span></div>
+      <div class="centrar">
+        <button class="boton_transparente">Add Money</button>
+      </div>
+      <div class="contenedor_tarjetas">
+        <img src="./img/tarjetas.png" alt="" class="tarjetas" />
+      </div>
+      <!--Lista transacciones-->
+      <div>
+        <div class="row">
+          <div class="col"><h5 class="subrayado">transactions</h5></div>
+          <div class="col final"><span>see all</span></div>
+        </div>
+        <div class="row">
+          <div class="col-2"></div>
+          <div class="col-7">
+            <div class="row"><h5>Amazon</h5></div>
+            <div class="row"><h6>Shopping</h6></div>
+          </div>
+          <div class="col-3 final">
+            <div class="row"><h5>-$ 36,00</h5></div>
+            <div class="row"><h6>01/12/2022</h6></div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-2"></div>
+          <div class="col-7">
+            <div class="row"><h5>Figma</h5></div>
+            <div class="row"><h6>Service</h6></div>
+          </div>
+          <div class="col-3 final">
+            <div class="row"><h5>-$ 12,00</h5></div>
+            <div class="row"><h6>01/12/2022</h6></div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-2"></div>
+          <div class="col-7">
+            <div class="row"><h5>Money Transaction</h5></div>
+            <div class="row"><h6></h6></div>
+          </div>
+          <div class="col-3 final">
+            <div class="row"><h5>+$ 100,00</h5></div>
+            <div class="row"><h6>29/11/2022</h6></div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-2"></div>
+          <div class="col-7">
+            <div class="row"><h5>Starbucks</h5></div>
+            <div class="row"><h6>Food</h6></div>
+          </div>
+          <div class="col-3 final">
+            <div class="row"><h5>-$ 14,50</h5></div>
+            <div class="row"><h6>28/11/2022</h6></div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-2"></div>
+          <div class="col-7">
+            <div class="row"><h5>Netflix</h5></div>
+            <div class="row"><h6>Entertainment</h6></div>
+          </div>
+          <div class="col-3 final">
+            <div class="row"><h5>-$ 6,00</h5></div>
+            <div class="row"><h6>28/11/2022</h6></div>
+          </div>
+        </div>
+      </div>
+      <!--Fin lista transacciones-->
+      <hr />
+      <div class="row iconos">
+        <div class="col-2"><i class="fa-solid fa-house casa"></i></div>
+        <div class="col-2">
+          <i class="fa-solid fa-arrow-right-arrow-left"></i>
+        </div>
+        <div class="col-2"><i class="fa-regular fa-user"></i></div>
+      </div>
+    </div>
+    <!--Fin segunda pantalla-->
+    <!--Tercera pantalla-->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-6"><h4 class="texto">send money</h4></div>
+        <div class="col-6"><span>see all</span></div>
+      </div>
+      <div><img src="./img/usuarios.png" alt="" /></div>
+      <div><h1>$ 100,00</h1></div>
+      <div>
+        <div class="row">
+          <div class="col-4"><h3>1</h3></div>
+          <div class="col-4"><h3>2</h3></div>
+          <div class="col-4"><h3>3</h3></div>
+        </div>
+        <div class="row">
+          <div class="col-4"><h3>4</h3></div>
+          <div class="col-4"><h3>5</h3></div>
+          <div class="col-4"><h3>6</h3></div>
+        </div>
+        <div class="row">
+          <div class="col-4"><h3>7</h3></div>
+          <div class="col-4"><h3>8</h3></div>
+          <div class="col-4"><h3>9</h3></div>
+        </div>
+        <div class="row">
+          <div class="col-4"><h3></h3></div>
+          <div class="col-4"><h3>0</h3></div>
+          <div class="col-4"><h3></h3></div>
+        </div>
+      </div>
+      <div><button class="boton_amarillo">Next</button></div>
+      <hr />
+      <div class="row">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+    <!--Fin tercera pantalla-->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
