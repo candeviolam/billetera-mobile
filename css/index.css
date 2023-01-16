@@ -13,10 +13,11 @@ body {
   background-color: var(--fondo-body);
 }
 
+/*Primera pantalla*/
 .container-fluid {
   background-color: var(--fondo-pantalla);
   width: 340px;
-  height: 95vh;
+  height: 720px;
   margin: 10px;
   border-radius: 20px;
 }
@@ -40,11 +41,11 @@ p {
   color: var(--color-letra-gris);
 }
 
-.circulo {
+.punto {
   color: var(--fondo-body);
 }
 
-.linea {
+.guion {
   color: var(--color-fuente);
 }
 
@@ -57,10 +58,16 @@ p {
   width: 100%;
   height: 40px;
 }
+/*Fin primera pantalla*/
 
 /*Segunda pantalla*/
 .separador {
   height: 40px;
+}
+
+.buen_dia {
+  display: flex;
+  flex-direction: row;
 }
 
 .texto {
@@ -70,6 +77,7 @@ p {
 
 .hola {
   width: 20px !important;
+  margin-left: 5px;
 }
 
 .plata {
@@ -78,14 +86,20 @@ p {
   margin-top: 10px;
 }
 
-.centrar {
-  display: flex;
-  justify-content: center;
-}
-
 .plata h1 {
   color: var(--color-botones);
   font-size: 40px;
+}
+
+.plata h1::after {
+  content: "90";
+  color: var(--color-botones);
+  font-size: 20px;
+}
+
+.centrar {
+  display: flex;
+  justify-content: center;
 }
 
 .boton_transparente {
@@ -131,9 +145,56 @@ h6 {
 
 .iconos {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .iconos div i {
   color: var(--color-fuente);
 }
+/*Fin segunda pantalla*/
+
+/*Tercera pantalla*/
+.contenedor_imagen_usuarios {
+  margin-top: 20px;
+}
+
+.imagen_usuarios {
+  width: 100%;
+}
+
+.plata_2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 18px;
+}
+
+.plata_2 h1 {
+  color: var(--color-fuente);
+  font-size: 40px;
+}
+
+.plata_2 h1::after {
+  content: "00";
+  color: var(--color-fuente);
+  font-size: 20px;
+}
+
+.numero {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.numero h3 {
+  padding: 5px;
+  font-size: 20px;
+}
+
+.borrar {
+  color: var(--color-fuente);
+}
+
+.next {
+  margin-top: 30px;
+}
+/*Fin tercera pantalla*/
