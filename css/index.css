@@ -34,19 +34,33 @@ body {
 
 .informacion {
   margin-top: 80px;
+  /* position: relative; */
 }
 
 p {
   font-size: smaller;
   color: var(--color-letra-gris);
+  margin: 0;
+}
+
+/* .ondas {
+  position: absolute;
+  z-index: 3;
+  bottom: 5px;
+} */
+
+.puntos_y_guion {
+  margin-bottom: 20px;
 }
 
 .punto {
-  color: var(--fondo-body);
+  width: 10px;
+  border-radius: 10px;
 }
 
 .guion {
-  color: var(--color-fuente);
+  width: 18px;
+  height: 25px;
 }
 
 .boton_amarillo {
@@ -143,6 +157,11 @@ h6 {
   opacity: 50%;
 }
 
+.amazon {
+  background-color: var(--color-fuente);
+  border-radius: 25px;
+}
+
 .iconos {
   display: flex;
   justify-content: space-around;
@@ -150,6 +169,12 @@ h6 {
 
 .iconos div i {
   color: var(--color-fuente);
+}
+
+.subrayado_casa {
+  border-bottom: 2px solid var(--color-fuente);
+  height: 35px;
+  width: 33px;
 }
 /*Fin segunda pantalla*/
 
@@ -196,5 +221,11 @@ h6 {
 
 .next {
   margin-top: 30px;
+}
+
+.subrayado_flechas {
+  border-bottom: 2px solid var(--color-fuente);
+  height: 35px;
+  width: 33px;
 }
 /*Fin tercera pantalla*/
