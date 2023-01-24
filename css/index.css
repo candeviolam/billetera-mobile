@@ -34,7 +34,20 @@ body {
 
 .informacion {
   margin-top: 80px;
-  /* position: relative; */
+}
+
+.informacion div h1 {
+  position: relative;
+  z-index: 0;
+}
+
+.ondas {
+  position: absolute;
+  z-index: 3;
+  bottom: 12px;
+  left: 65px;
+  width: 75px;
+  height: 40px;
 }
 
 p {
@@ -42,12 +55,6 @@ p {
   color: var(--color-letra-gris);
   margin: 0;
 }
-
-/* .ondas {
-  position: absolute;
-  z-index: 3;
-  bottom: 5px;
-} */
 
 .puntos_y_guion {
   margin-bottom: 20px;
@@ -127,6 +134,10 @@ p {
   margin-top: 10px;
 }
 
+.contenedor_tarjetas {
+  width: 100%;
+}
+
 .tarjetas {
   width: 100%;
   margin-top: 25px;
@@ -160,6 +171,17 @@ h6 {
 .amazon {
   background-color: var(--color-fuente);
   border-radius: 25px;
+}
+
+.contenedor_avatar {
+  position: relative;
+}
+
+.avatar {
+  width: 43px;
+  position: absolute;
+  left: 8px;
+  bottom: 5px;
 }
 
 .iconos {
