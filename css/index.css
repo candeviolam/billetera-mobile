@@ -104,7 +104,7 @@ p {
 .plata {
   display: flex;
   justify-content: center;
-  margin-top: 10px;
+  margin-top: 25px;
 }
 
 .plata h1 {
@@ -134,17 +134,18 @@ p {
   margin-top: 10px;
 }
 
-.contenedor_tarjetas {
-  width: 100%;
-}
-
 .tarjetas {
   width: 100%;
   margin-top: 25px;
+  margin-bottom: 3px;
 }
 
 .subrayado {
   text-decoration: underline;
+}
+
+.transacciones {
+  margin-top: 5px;
 }
 
 .final {
