@@ -135,9 +135,15 @@ p {
 }
 
 .tarjetas {
-  width: 100%;
+  position: absolute;
+  width: 340px;
+  left: 8px;
   margin-top: 25px;
   margin-bottom: 3px;
+}
+
+.separador_de_tarjetas {
+  height: 165px;
 }
 
 .subrayado {
